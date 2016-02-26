@@ -12,7 +12,7 @@ pip install git+https://github.com/odra/habet.git
 
 ## Usage
 
-Check samples folder.
+Check examples folder.
 
 ## Features
 
