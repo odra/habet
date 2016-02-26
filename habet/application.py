@@ -39,6 +39,6 @@ class Application(object):
     gevent.spawn(handler.finish)
     return [res.body]
 
-  def listen(self, host='127.0.0.1', port=5000, debug=True, log=None):
+  def listen(self, host='127.0.0.1', port=5000, debug=True, logger=None):
     addr = (host, port)
-    wsgi.WSGIServer(addr, self.application, log=log).serve_forever()
+    wsgi.WSGIServer(addr, self.application, log=logger).serve_forever()

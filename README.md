@@ -4,15 +4,23 @@ Python http framework built on top of gevent.
 
 This is a one day thing and should not be taken seriously.
 
-## Usage
-
-Check samples folder.
-
 # Installation
 
 ```
 pip install git+https://github.com/odra/habet.git
 ```
+
+## Usage
+
+Check samples folder.
+
+## Features
+
+- uwsgi compliance;
+- route handling with classes (simular to tornado web handler);
+- error handling with exceptions;
+- application scope variables (such as database connections, etc);
+- api and json focused;
 
 ## License
 
