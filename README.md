@@ -6,7 +6,7 @@ This is a one day thing and should not be taken seriously.
 
 # Installation
 
-```
+```sh
 pip install git+https://github.com/odra/habet.git
 ```
 
