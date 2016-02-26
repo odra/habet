@@ -1,6 +1,6 @@
 # Habet
 
-Python http framework built on top of gevent.
+Python http framework built on top of gevent (pywsgi).
 
 This is a one day thing and should not be taken seriously.
 
