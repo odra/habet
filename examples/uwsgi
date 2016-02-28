@@ -1,0 +1,1 @@
+uwsgi --plugin python,gevent --gevent 100 -H ../venv  --http-socket :5000 --wsgi-file sample.py --callable app
